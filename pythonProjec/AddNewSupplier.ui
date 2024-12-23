@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddNewSupplier</class>
+ <widget class="QMainWindow" name="AddNewSupplier">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>278</width>
+    <height>339</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Добавление нового поставщика</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>images/Мастер пол.ico</normaloff>images/Мастер пол.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #123456;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="FIOSuppliers">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>&quot;Segoe UI Black&quot;</family>
+      <pointsize>10</pointsize>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 0px;
+max-width: 700px;
+background-color: #666000;
+
+
+color:black;
+font: 87 10pt \&quot;Segoe UI Black\&quot;;\n</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string> Фамилия Имя Отчество</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="typeSupplier">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>&quot;Segoe UI Black&quot;</family>
+      <pointsize>10</pointsize>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 0px;
+max-width: 700px;
+background-color: #666000;
+
+
+color: black;
+font: 87 10pt \&quot;Segoe UI Black\&quot;;\n</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string> Тип поставок</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="INNSuplier">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>180</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>&quot;Segoe UI Black&quot;</family>
+      <pointsize>10</pointsize>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 0px;
+max-width: 700px;
+background-color: #666000;
+
+
+color:black;
+font: 87 10pt \&quot;Segoe UI Black\&quot;;\n</string>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string> ИНН</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addNewSuppliers">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: #666000;
+
+border: 6px;
+color:black;
+
+}
+QPushButton:hover {
+background-color:rgb(91, 91, 91);
+}
+QPushButton:pressed {
+background-color: rgb(61, 61, 61);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Внести</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>18</width>
+      <height>18</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

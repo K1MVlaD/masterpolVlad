@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Menu</class>
+ <widget class="QMainWindow" name="Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>627</width>
+    <height>592</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Меню</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>images/Мастер пол.ico</normaloff>images/Мастер пол.ico</iconset>
+  </property>
+  <property name="accessibleName">
+   <string/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #123456;
+padding: 0;
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="suppliersButton">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>320</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: #666000;
+border: 9px;
+color:BLACK;
+font: 87 10pt \&quot;TimesNewRoman\&quot;;\n\;
+}
+QPushButton:hover {
+background-color:rgb(91, 91, 91);
+}
+QPushButton:pressed {
+background-color: rgb(61, 61, 61);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Поставщики</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="partnerButton">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>390</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: #666000;
+border: 9px;
+color:BLACK;
+font: 87 10pt \&quot;TimesNewRoman\&quot;;\n\;
+}
+QPushButton:hover {
+background-color:rgb(91, 91, 91);
+}
+QPushButton:pressed {
+background-color: rgb(61, 61, 61);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Партнёры</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="suppliersButton_3">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>460</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color:#666000;
+border: 9px;
+color:BLACK;
+font: 87 10pt \&quot;TimesNewRoman\&quot;;\n\;
+}
+QPushButton:hover {
+background-color:rgb(91, 91, 91);
+}
+QPushButton:pressed {
+background-color: rgb(61, 61, 61);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>История заказов</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="suppliersButton_4">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>320</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: #666000;
+border: 9px;
+color:BLACK;
+font: 87 10pt \&quot;TimesNewRoman\&quot;;\n\;
+}
+QPushButton:hover {
+background-color:rgb(91, 91, 91);
+}
+QPushButton:pressed {
+background-color: rgb(61, 61, 61);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Заявки</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="suppliersButton_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>390</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color:#666000;
+border: 9px;
+color:BLACK;
+font: 87 10pt \&quot;TimesNewRoman\&quot;;\n\;
+}
+QPushButton:hover {
+background-color:rgb(91, 91, 91);
+}
+QPushButton:pressed {
+background-color: rgb(61, 61, 61);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Сотрудники</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="suppliersButton_6">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>460</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: #666000;
+border: 9px;
+color:BLACK;
+font: 87 10pt \&quot;TimesNewRoman\&quot;;\n\;
+}
+QPushButton:hover {
+background-color:rgb(91, 91, 91);
+}
+QPushButton:pressed {
+background-color: rgb(61, 61, 61);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>Продукты</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>20</y>
+      <width>200</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(203, 201, 195)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>images/Мастер пол.ico</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="FIOperson">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>220</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>&quot;Segoe UI Black&quot;</family>
+      <pointsize>20</pointsize>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::NoContextMenu</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#666000;
+border: 0;
+
+align-items: center;
+font: 87 20pt \&quot;Segoe UI Black\&quot;;\n
+
+</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="plainText">
+     <string>MASTER POOL</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
